@@ -60,11 +60,10 @@ K &= (\pi_{CodEmpResponsavel} \,\, (\sigma_{CodDepto\neq1} \,\, Depto)) \cup Y \
    gerente possui.
 
 4. Muitas operações algébricas podem ser escritas em função de
-   operações base. Sejam as relações $R(A, B)$ e $T(B, C)$
-   com atributos inteiros, crie uma expressão algébrica
-   utilizando os demais operadores que forneça o mesmo
-   resultado da operação
-   $R \bowtie_{R.B=T.B\,\, \wedge  \,\, T.C > 0}T$.
+operações base. Sejam as relações $R(A, B)$ e $T(B, C)$
+com atributos inteiros, crie uma expressão algébrica
+utilizando os demais operadores que forneça o mesmo
+resultado da operação $R \bowtie_{R.B=T.B\,\, \wedge  \,\, T.C > 0}T$.
 
 5. Suponha as relações $R(A, B)$ e $T(B, C)$ onde todos os
    atributos são inteiros. Das três expressões
@@ -74,9 +73,11 @@ K &= (\pi_{CodEmpResponsavel} \,\, (\sigma_{CodDepto\neq1} \,\, Depto)) \cup Y \
    (passo a passo) qual é a expressão que produz um resultado
    diferente.
 
-   1. $\pi_{A,C}(R \bowtie (\sigma_{B=1}T))$
-   2. $\pi_{A}(\sigma_{B=1} R) \times \pi_{C}(\sigma_{B=1} T)$
-   3. $\pi_{A,C}(\pi_A R \times (\sigma_{B=1} T))$
+\begin{align*}
+i. & \pi_{A,C}(R \bowtie (\sigma_{B=1}T)) \\
+ii. & pi_{A}(\sigma_{B=1} R) \times \pi_{C}(\sigma_{B=1} T) \\
+iii. & \pi_{A,C}(\pi_A R \times (\sigma_{B=1} T))
+\end{align*}
 
 ## Revisão Teórica
 

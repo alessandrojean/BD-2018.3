@@ -55,11 +55,10 @@
    gerente possui.
 
 4. Muitas operações algébricas podem ser escritas em função de
-   operações base. Sejam as relações $R(A, B)$ e $T(B, C)$
-   com atributos inteiros, crie uma expressão algébrica
-   utilizando os demais operadores que forneça o mesmo
-   resultado da operação
-   $R \bowtie_{R.B=T.B\,\, \wedge  \,\, T.C > 0}T$.
+operações base. Sejam as relações <img src="https://rawgit.com/alessandrojean/BD-2018.3/master/lists/list-01/svgs/066c9e252ff9c0e5310f7e1182a6ac99.svg?invert_in_darkmode" align=middle width=58.322055000000006pt height=24.65759999999998pt/> e <img src="https://rawgit.com/alessandrojean/BD-2018.3/master/lists/list-01/svgs/ff9ad578f2f011465587866a58650b28.svg?invert_in_darkmode" align=middle width=58.198800000000006pt height=24.65759999999998pt/>
+com atributos inteiros, crie uma expressão algébrica
+utilizando os demais operadores que forneça o mesmo
+resultado da operação <img src="https://rawgit.com/alessandrojean/BD-2018.3/master/lists/list-01/svgs/c7c97e45ff9bc598a84c5998ac95e2c8.svg?invert_in_darkmode" align=middle width=163.453455pt height=22.46574pt/>.
 
 5. Suponha as relações <img src="https://rawgit.com/alessandrojean/BD-2018.3/master/lists/list-01/svgs/066c9e252ff9c0e5310f7e1182a6ac99.svg?invert_in_darkmode" align=middle width=58.322055000000006pt height=24.65759999999998pt/> e <img src="https://rawgit.com/alessandrojean/BD-2018.3/master/lists/list-01/svgs/ff9ad578f2f011465587866a58650b28.svg?invert_in_darkmode" align=middle width=58.198800000000006pt height=24.65759999999998pt/> onde todos os
    atributos são inteiros. Das três expressões
@@ -69,9 +68,7 @@
    (passo a passo) qual é a expressão que produz um resultado
    diferente.
 
-   1. $\pi_{A,C}(R \bowtie (\sigma_{B=1}T))$
-   2. $\pi_{A}(\sigma_{B=1} R) \times \pi_{C}(\sigma_{B=1} T)$
-   3. $\pi_{A,C}(\pi_A R \times (\sigma_{B=1} T))$
+   <img src="https://rawgit.com/alessandrojean/BD-2018.3/master/lists/list-01/svgs/a5920c2876180f2caa65b3784d08eb68.svg?invert_in_darkmode" align=middle width=211.4871pt height=66.34699499999999pt/>
 
 ## Revisão Teórica
 
