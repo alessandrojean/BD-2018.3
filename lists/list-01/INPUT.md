@@ -47,7 +47,7 @@ K &= (\pi_{CodEmpResponsavel} \,\, (\sigma_{CodDepto\neq1} \,\, Depto)) \cup Y \
 1. Converta a instrução SQL abaixo em uma expressão de álgebra
    relacional análoga.
 
-   ```postgresql
+   ```sql
    select e.nmemp, e.snemp, count(d.codemp)
    from Emp e left join Depte d using(codemp)
    group by e.nmemp, e.snemp;
