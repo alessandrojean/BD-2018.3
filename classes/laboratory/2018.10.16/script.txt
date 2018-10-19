@@ -1,0 +1,28 @@
+-- Questão 1
+X = σ VlSalario > 10000 (Emp)
+Y = π NmEmp, SnEmp (X)
+ρ Nome<-NmEmp, Sobrenome<-SnEmp (Y)
+
+-- Questão 2
+X = σ QtHoras > 140 (Emp ⨝ Alocado)
+π NmEmp, SnEmp, CodSexo, VlSalario (X)
+
+-- Questão 3
+V = σ upper(NmLocalizacao) = 'SAO PAULO' (Consult ⨝ Depto)
+W = π NmConsult, SnConsult, VlSalHora (V)
+X = σ upper(NmProj) = 'AUTOMATIZACAO' (Proj)
+Z = π NmConsult, SnConsult, VlSalHora (Consult ⨝ X ⨝ Depto)
+W ∪ Z
+
+-- Questão 4
+X = Emp ⟕ Emp.CodEmp = Depte.CodEmp Depte
+π Emp.NmEmp, Emp.SnEmp, Depte.NmDepte, Depte.TpParentesco (X)
+
+-- Questão 5
+X = Depto ⨝ Proj ⨝ Alocado
+Y = γ NmDepto, NmProj; sum(QtHoras)->Volume, avg(QtHoras)->Media (X)
+τ NmDepto asc, NmProj asc (Y)
+
+-- Challenge
+X = (ρ g (Emp)) ⟖ g.CodEmp = e.CodEmpGerente (ρ e (Emp))
+γ g.NmEmp, g.SnEmp, g.VlSalario; count(*)->Total, sum(e.VlSalario)->SalTotal (X)

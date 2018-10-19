@@ -2,3 +2,5 @@
 *.zip
 pdfs/
 slides/
+bibliography/
+*.pdf
