@@ -8,7 +8,7 @@ Federal University of ABC (UFABC).
 [year]: https://img.shields.io/badge/year-2018.3-blue.svg?style=flat-square
 [id]: https://img.shields.io/badge/id-MCTA005--13-yellowgreen.svg?style=flat-square
 [tpi]: https://img.shields.io/badge/T--P--I-3--1--4-lightgrey.svg?style=flat-square
-[last-class]: https://img.shields.io/badge/last_class-2018.10.16-green.svg?style=flat-square
+[last-class]: https://img.shields.io/badge/last_class-2018.11.09-green.svg?style=flat-square
 [language]: https://img.shields.io/badge/language-SQL-yellow.svg?style=flat-square
 [software]: https://img.shields.io/badge/software-PostgreSQL_and_Neo4j-orange.svg?style=flat-square
 
@@ -22,9 +22,17 @@ Federal University of ABC (UFABC).
 - **05/10/2018** *(Theory)*: Relational Algebra *(part 2)*.
 - **09/10/2018** *(Theory)*: NoSQL.
 - **16/10/2018** *(Laboratory)*: [Relational Algebra exercises].
+- **19/10/2018** *(Theory)*: Conceptual Data Modeling *(part 1)*.
+- **23/10/2018** *(Theory)*: Conceptual Data Modeling *(part 2)*.
+- **26/10/2018** *(Laboratory)*: **First test**.
+- **30/10/2018** *(Theory)*: Conceptual Data Modeling *(part 3)*.
+- **06/11/2018** *(Theory)*: Logical Data Modeling.
+- **09/11/2018** *(Laboratory)*: [NoSQL exercises].
+
 
 [SQL DML exercises]: classes/laboratory/2018.09.28/
 [Relational Algebra exercises]: classes/laboratory/2018.10.16/
+[NoSQL exercises]: classes/laboratory/2018.11.09/
 
 ## License
 
