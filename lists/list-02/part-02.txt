@@ -1,0 +1,8 @@
+Quando uma consulta gera uma lista de exames, é possível saber quais
+laboratórios oferecem o tal exame, mas após o paciente ter feito,
+não é possível saber em qual laboratório o exame foi realizado.
+
+Em relação as alas de cirurgia, apenas os médicos cirurgiões 
+deveriam ser capazes de trabalhar nelas, no entanto, a 
+relação é com a entidade funcionário, não limitando o 
+acesso somente aos capacitados.
