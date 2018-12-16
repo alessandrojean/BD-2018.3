@@ -8,7 +8,7 @@ Federal University of ABC (UFABC).
 [year]: https://img.shields.io/badge/year-2018.3-blue.svg?style=flat-square
 [id]: https://img.shields.io/badge/id-MCTA005--13-yellowgreen.svg?style=flat-square
 [tpi]: https://img.shields.io/badge/T--P--I-3--1--4-lightgrey.svg?style=flat-square
-[last-class]: https://img.shields.io/badge/last_class-2018.11.23-green.svg?style=flat-square
+[last-class]: https://img.shields.io/badge/last_class-2018.12.07-green.svg?style=flat-square
 [language]: https://img.shields.io/badge/language-SQL-yellow.svg?style=flat-square
 [software]: https://img.shields.io/badge/software-PostgreSQL_and_Neo4j-orange.svg?style=flat-square
 
@@ -30,12 +30,17 @@ Federal University of ABC (UFABC).
 - **09/11/2018** *(Laboratory)*: [NoSQL exercises].
 - **13/11/2018** *(Theory)*: SQL-DDL.
 - **23/11/2018** *(Laboratory)*: [Conceptual Data Modeling exercises].
+- **27/11/2018** *(Theory)*: Normal Forms *(part 1)*.
+- **30/11/2018** *(Theory)*: Normal Forms *(part 2)*.
+- **04/12/2018** *(Theory)*: **Second test**.
+- **12/07/2018** *(Laboratory)*: [Normal Forms exercises].
 
 
 [SQL-DML exercises]: classes/laboratory/2018.09.28/
 [Relational Algebra exercises]: classes/laboratory/2018.10.16/
 [NoSQL exercises]: classes/laboratory/2018.11.09/
 [Conceptual Data Modeling exercises]: classes/laboratory/2018.11.23/
+[Normal Forms exercises]: classes/laboratory/2018.12.07/
 
 ## License
 
