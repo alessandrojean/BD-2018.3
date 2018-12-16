@@ -8,16 +8,16 @@ Federal University of ABC (UFABC).
 [year]: https://img.shields.io/badge/year-2018.3-blue.svg?style=flat-square
 [id]: https://img.shields.io/badge/id-MCTA005--13-yellowgreen.svg?style=flat-square
 [tpi]: https://img.shields.io/badge/T--P--I-3--1--4-lightgrey.svg?style=flat-square
-[last-class]: https://img.shields.io/badge/last_class-2018.11.09-green.svg?style=flat-square
+[last-class]: https://img.shields.io/badge/last_class-2018.11.23-green.svg?style=flat-square
 [language]: https://img.shields.io/badge/language-SQL-yellow.svg?style=flat-square
 [software]: https://img.shields.io/badge/software-PostgreSQL_and_Neo4j-orange.svg?style=flat-square
 
 ## Classes
 
 - **18/09/2018** *(Theory)*: Fundaments.
-- **21/09/2018** *(Theory)*: SQL DML *(part 1)*.
-- **25/09/2018** *(Theory)*: SQL DML *(part 2)*.
-- **28/09/2018** *(Laboratory)*: [SQL DML exercises].
+- **21/09/2018** *(Theory)*: SQL-DML *(part 1)*.
+- **25/09/2018** *(Theory)*: SQL-DML *(part 2)*.
+- **28/09/2018** *(Laboratory)*: [SQL-DML exercises].
 - **02/10/2018** *(Theory)*: Relational Algebra *(part 1)*.
 - **05/10/2018** *(Theory)*: Relational Algebra *(part 2)*.
 - **09/10/2018** *(Theory)*: NoSQL.
@@ -28,11 +28,14 @@ Federal University of ABC (UFABC).
 - **30/10/2018** *(Theory)*: Conceptual Data Modeling *(part 3)*.
 - **06/11/2018** *(Theory)*: Logical Data Modeling.
 - **09/11/2018** *(Laboratory)*: [NoSQL exercises].
+- **13/11/2018** *(Theory)*: SQL-DDL.
+- **23/11/2018** *(Laboratory)*: [Conceptual Data Modeling exercises].
 
 
-[SQL DML exercises]: classes/laboratory/2018.09.28/
+[SQL-DML exercises]: classes/laboratory/2018.09.28/
 [Relational Algebra exercises]: classes/laboratory/2018.10.16/
 [NoSQL exercises]: classes/laboratory/2018.11.09/
+[Conceptual Data Modeling exercises]: classes/laboratory/2018.11.23/
 
 ## License
 
